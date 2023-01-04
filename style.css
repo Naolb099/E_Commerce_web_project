@@ -49,7 +49,7 @@ body {
     padding: 20px 75px;
     background-color: #001489;
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.06);
-    position:sticky;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
@@ -127,20 +127,21 @@ body {
     margin-top: 0.5cm;
 }
 
-#product{
+#product {
     text-align: center;
 }
 
-#product .pro-container{
+#product .pro-container {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     flex-wrap: wrap;
 }
-#product .proItem{
-    width:23%;
+
+#product .proItem {
+    width: 23%;
     min-width: 250px;
-    padding:10px 20px;
+    padding: 10px 20px;
     border: 0.5px solid #f5f0f0;
     border-radius: 0px;
     cursor: pointer;
@@ -151,54 +152,54 @@ body {
 }
 
 #product .proItem:hover {
-     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-#product .proItem img{
+#product .proItem img {
     width: 100%;
     border-radius: 15px;
 }
 
-#product .proItem .description{
+#product .proItem .description {
     text-align: center;
     padding: 10px 0;
 }
 
-#product .proItem .description .span{
+#product .proItem .description .span {
     color: #001489;
     font-size: 12px;
 }
 
-#product .proItem .description h5{
+#product .proItem .description h5 {
     padding-top: 6px;
     color: black;
     font-size: 14px;
 }
 
-#product .proItem .description i{
+#product .proItem .description i {
     font-size: 11;
     color: rgb(223, 184, 9)
 }
 
-#product .proItem .description h4{
+#product .proItem .description h4 {
     padding-top: 7px;
     font-size: 15px;
     color: rgb(3, 3, 81);
 }
 
-#product .proItem .cart{
+#product .proItem .cart {
     width: 35px;
     height: 35px;
     line-height: 40px;
     border-radius: 40px;
     font-weight: 600;
-    color:rgb(3, 3, 81);
+    color: rgb(3, 3, 81);
     position: absolute;
     bottom: 5px;
     right: 15px;
 }
 
-#banner{
+#banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,19 +212,20 @@ body {
     background-position: center;
 
 }
-#banner h2{
+
+#banner h2 {
     color: white;
     font-size: 50px;
     padding: 8px 0;
 }
 
-#banner h3{
+#banner h3 {
     color: white;
     font-size: 24px;
     padding: 7px 0;
 }
 
-#banner button{
+#banner button {
     width: 15%;
     padding: 15px 0;
     font-size: 15px;
@@ -234,11 +236,28 @@ body {
     cursor: pointer;
 }
 
-#banner button:hover{
+#banner button:hover {
     font-size: 20px;
     background-color: black;
     color: white;
 }
+
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .proItem .description h4 {
+    text-decoration: line-through;
+}
+
 
 #newsletter {
     display: flex;
@@ -248,29 +267,29 @@ body {
     background-image: url("banner/blue-banner.png");
 }
 
-#newsletter h4{
+#newsletter h4 {
     color: white;
     font-size: 20px;
     font-weight: 600;
 }
 
-#newsletter p{
+#newsletter p {
     color: rgb(90, 86, 86);
     font-size: 14px;
     font-weight: 500;
 }
 
-#newsletter .form{
+#newsletter .form {
     display: flex;
     width: 40%;
     border-radius: 4px;
 }
 
-#newsletter p span{
+#newsletter p span {
     color: rgb(255, 0, 0);
 }
 
-#newsletter input{
+#newsletter input {
     height: 3.125;
     padding: 0 1.25em;
     font-size: 14px;
@@ -282,7 +301,7 @@ body {
     border-bottom-right-radius: 0;
 }
 
-#newsletter button{
+#newsletter button {
     background-color: black;
     color: white;
     white-space: nowrap;

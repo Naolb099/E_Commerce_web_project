@@ -49,7 +49,7 @@ body {
     padding: 20px 75px;
     background-color: #001489;
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.06);
-    position:sticky;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
@@ -99,55 +99,213 @@ body {
 /* home page */
 
 #hero {
-    background-image: url("chelseaLogo2.png");
-    height: 110vh;
+    background-image: url("messi10.jpg");
+    height: 90vh;
     width: 100%;
-    background-position: top 25% right 0;
     background-size: cover;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
+    text-decoration: wavy;
 
-#hero h4 {
-    padding-bottom: 15px;
 }
 
 #hero h1 {
-    color: #001489;
-}
-
-#hero h2 {
-    padding-bottom: 15px;
-}
-
-#hero p {
-    padding-bottom: 15px;
+    color: black;
 }
 
 #hero button {
     padding: 6px 20px;
-    border-radius: 30px;
-    color: white;
+    border-radius: 0px;
+    color: black;
     cursor: pointer;
-    background: #111;
+    background: transparent;
     font-weight: 700;
     font-size: 16px;
+    margin-top: 0.5cm;
 }
 
-#feature .fe-box {
-    width:180px;
-    height: 200px;
+#product {
     text-align: center;
-    padding: 25px 15px;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-    border: 1px solid #b5b5b5;
-    border-radius: 3px;
-    margin: 15px;
 }
 
-#feature .fe-box:hover {
-    box-shadow: 10px 10px 50px rgba(69, 62, 201, 0.01);
+#product .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product .proItem {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 20px;
+    border: 0.5px solid #f5f0f0;
+    border-radius: 0px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+    margin: 15px 0;
+    position: relative;
+    transition: 0.2s ease;
+}
+
+#product .proItem:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product .proItem img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#product .proItem .description {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#product .proItem .description .span {
+    color: #001489;
+    font-size: 12px;
+}
+
+#product .proItem .description h5 {
+    padding-top: 6px;
+    color: black;
+    font-size: 14px;
+}
+
+#product .proItem .description i {
+    font-size: 11;
+    color: rgb(223, 184, 9)
+}
+
+#product .proItem .description h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    color: rgb(3, 3, 81);
+}
+
+#product .proItem .cart {
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    border-radius: 40px;
+    font-weight: 600;
+    color: rgb(3, 3, 81);
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("banner/blue-banner.png");
+    color: white;
+    width: 100%;
+    height: 45vh;
+    background-position: center;
+
+}
+
+#banner h2 {
+    color: white;
+    font-size: 50px;
+    padding: 8px 0;
+}
+
+#banner h3 {
+    color: white;
+    font-size: 24px;
+    padding: 7px 0;
+}
+
+#banner button {
+    width: 15%;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin: 25px 5px 15px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#banner button:hover {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .proItem .description h4 {
+    text-decoration: line-through;
+}
+
+
+#newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("banner/blue-banner.png");
+}
+
+#newsletter h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#newsletter p {
+    color: rgb(90, 86, 86);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+    border-radius: 4px;
+}
+
+#newsletter p span {
+    color: rgb(255, 0, 0);
+}
+
+#newsletter input {
+    height: 3.125;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: black;
+    color: white;
+    white-space: nowrap;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
 }

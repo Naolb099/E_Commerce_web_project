@@ -149,8 +149,9 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   flex-wrap: wrap;
+  background-color: rgb(60, 172, 172);
 }
 
 #product .proItem {
@@ -402,6 +403,21 @@ footer .copyright {
 #pagination a i {
   font-size: 16px;
   font-weight: 600;
+}
+
+/* single item detail */
+#item-details .single-item-image {
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group {
+  display: flex;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
 }
 
 /* Strat Media Query*/

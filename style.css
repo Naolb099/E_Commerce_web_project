@@ -149,7 +149,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   flex-wrap: wrap;
 }
 
@@ -158,7 +158,7 @@ body {
   min-width: 250px;
   padding: 10px 20px;
   border: 0.5px solid #f5f0f0;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
   margin: 15px 0;
@@ -370,6 +370,38 @@ footer a:hover {
 footer .copyright {
   text-align: center;
   width: 100%;
+}
+
+/* shop */
+
+#page-header {
+  background-image: url("images/");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+#pagination {
+  text-align: center;
+}
+
+#pagination a {
+  text-decoration: none;
+  background-color: rgb(6, 6, 118);
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+}
+
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 /* Strat Media Query*/

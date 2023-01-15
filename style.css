@@ -596,4 +596,19 @@ footer .copyright {
   footer .copyright {
     text-align: start;
   }
+
+  /* single item */
+  #item-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #item-details .single-item-image {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #item-details .single-pro-details {
+    width: 100%;
+  }
 }

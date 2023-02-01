@@ -612,3 +612,20 @@ footer .copyright {
     width: 100%;
   }
 }
+
+/* blocks */
+
+.block {
+  padding: 6rem 2rem;
+}
+
+.block__header {
+  text-align: center;
+}
+.block__heading {
+  margin-top: 0;
+}
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
